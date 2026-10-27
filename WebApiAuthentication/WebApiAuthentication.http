@@ -1,0 +1,11 @@
+﻿@WebApiAuthentication_HostAddress = https://localhost:7203
+
+POST {{WebApiAuthentication_HostAddress}}/api/authentication/Login
+Content-Type: application/json
+
+{
+  "username": "manuelrazo",
+  "password": "R@mmStein4"
+}
+
+###
